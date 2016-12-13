@@ -1,0 +1,16 @@
+Package: xslt
+Version: 1.0
+Title: XSLT 1.0 Transformations
+Description: An extension for the 'xml2' package to transform XML documents
+    by applying an XSL stylesheet.
+Author: Jeroen Ooms
+Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
+URL: https://github.com/jeroenooms/xslt
+BugReports: https://github.com/jeroenooms/xslt/issues
+Depends: xml2
+LinkingTo: Rcpp, xml2
+SystemRequirements: libxslt: libxslt1-dev (deb), libxslt-devel (rpm)
+License: GPL (>= 2)
+RoxygenNote: 5.0.1.9000
+Roxygen: list(markdown = TRUE)
+Suggests: testthat

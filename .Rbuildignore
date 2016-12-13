@@ -1,0 +1,10 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+windows
+.travis.yml
+^cran-comments\.md$
+^revdep$
+^src/Makevars$
+^codecov\.yml$
+^docker$
+^readme.md$
