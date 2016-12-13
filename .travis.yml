@@ -34,6 +34,7 @@ addons:
 
 r_github_packages:
   - jimhester/covr
+  - hadley/xml2@exported_XPtr
 
 warnings_are_errors: true
 #r_check_revdep: true
