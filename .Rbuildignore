@@ -8,3 +8,4 @@ windows
 ^codecov\.yml$
 ^docker$
 ^readme.md$
+^appveyor\.yml$
