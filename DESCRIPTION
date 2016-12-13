@@ -7,7 +7,8 @@ Author: Jeroen Ooms
 Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
 URL: https://github.com/jeroenooms/xslt
 BugReports: https://github.com/jeroenooms/xslt/issues
-Depends: xml2
+Remotes: hadley/xml2
+Depends: xml2 (>= 1.0.0.9002)
 LinkingTo: Rcpp, xml2
 SystemRequirements: libxslt: libxslt1-dev (deb), libxslt-devel (rpm)
 License: GPL (>= 2)
