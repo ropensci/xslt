@@ -26,7 +26,7 @@ matrix:
 addons:
   apt:
     packages:
-      - libxslt-dev
+      - libxslt1-dev
       - valgrind
 
 r_github_packages:
