@@ -4,7 +4,7 @@ Title: XSLT 1.0 Transformations
 Description: An extension for the 'xml2' package to transform XML documents
     by applying an XSL stylesheet.
 Author: Jeroen Ooms
-Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
+Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
 URL: https://github.com/ropensci/xslt
 BugReports: https://github.com/ropensci/xslt/issues
 Depends: xml2 (>= 1.1.0)
