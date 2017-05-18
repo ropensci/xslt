@@ -27,5 +27,8 @@ xml_xslt <- function(doc, stylesheet){
 xml_xslt.xml_document <- function(doc, stylesheet){
   as_xml2 <- utils::getFromNamespace("xml_document", "xml2")
   stopifnot(inherits(stylesheet, "xml_document"))
-  as_xml2(doc_xslt_apply(doc$doc, stylesheet$doc))
+  out <- doc_xslt_apply(doc$doc, stylesheet$doc)
+  if(is.character(out))
+    return(out)
+  as_xml2(out)
 }

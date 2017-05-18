@@ -27,7 +27,7 @@ BEGIN_RCPP
 END_RCPP
 }
 // doc_xslt_apply
-XPtrDoc doc_xslt_apply(XPtrDoc doc, XPtrDoc xslt);
+SEXP doc_xslt_apply(XPtrDoc doc, XPtrDoc xslt);
 RcppExport SEXP xslt_doc_xslt_apply(SEXP docSEXP, SEXP xsltSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
