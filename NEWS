@@ -1,0 +1,5 @@
+1.1
+  - For stylesheets with output method="text" return a string instead of xml object
+  
+1.0
+  - Initial release
