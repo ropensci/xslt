@@ -16,15 +16,15 @@ xslt_version()
 \item{stylesheet}{another xml document containing the XSL stylesheet}
 }
 \description{
-Transform an XML document by applying an XSL stylesheet.
+Transform an XML document by applying an XSL stylesheet. Usually returns the
+transformed \link[xml2:xml_new_document]{xml_document}, unless the stylesheet has
+\code{<xsl:output method="text">} in which case we return a text string.
 }
 \details{
 This implementation supports XSLT 1.0 features plus most of the EXSLT set of
-processor-portable extensions functions.
-
-Unfortunately XSLT 2.0 or 3.0 features are only available in proprietary libraries
-and currently unsupported. However XSLT 2.0 is not widely adopted anyway because
-it is also unavailable in most browsers.
+processor-portable extensions functions. Unfortunately XSLT 2.0 or 3.0 features
+are only available in proprietary libraries and currently unsupported. However
+XSLT 2.0 is not widely adopted anyway because it is unavailable in most browsers.
 }
 \examples{
 doc <- read_xml(system.file("examples/cd_catalog.xml", package = "xslt"))
