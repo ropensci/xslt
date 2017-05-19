@@ -43,7 +43,7 @@ extern "C" {
     
     /* Required by R 3.4 */
     R_registerRoutines(info, NULL, NULL, NULL, NULL);
-    R_useDynamicSymbols(info, TRUE);
+    R_useDynamicSymbols(info, (Rboolean) TRUE);
   }
 
   void R_unload_xlst(DllInfo *info) {

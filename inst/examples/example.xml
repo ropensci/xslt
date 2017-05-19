@@ -1,0 +1,1278 @@
+<result>
+  <labels selected="169" candidate="226">
+    <arrangement>
+      <converged>true</converged>
+      <iterations>110</iterations>
+      <silhouetteAverage>0.4944445</silhouetteAverage>
+      <netSimilarity>60.6666</netSimilarity>
+      <pruningGain>0.1405229</pruningGain>
+      <clusters>
+        <cluster id="57" exemplar="57" similarity="0.3333333" silhouette="0.0">
+          <labels>
+            <label id="95" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="30" exemplar="30" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="105" similarity="0.3333333" silhouette="0.0"/>
+            <label id="0" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="104" exemplar="104" similarity="0.3333333" silhouette="0.0">
+          <labels>
+            <label id="48" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters>
+            <cluster id="77" exemplar="77" similarity="0.3333333" silhouette="0.0">
+              <labels>
+                <label id="43" similarity="0.3333333" silhouette="1.0"/>
+              </labels>
+              <clusters/>
+            </cluster>
+          </clusters>
+        </cluster>
+        <cluster id="87" exemplar="87" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="73" similarity="0.3333333" silhouette="1.0"/>
+            <label id="152" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters>
+            <cluster id="155" exemplar="155" similarity="0.3333333" silhouette="0.0">
+              <labels>
+                <label id="7" similarity="0.3333333" silhouette="1.0"/>
+              </labels>
+              <clusters/>
+            </cluster>
+          </clusters>
+        </cluster>
+        <cluster id="40" exemplar="40" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="127" similarity="0.3333333" silhouette="1.0"/>
+            <label id="80" similarity="0.3333333" silhouette="1.0"/>
+            <label id="140" similarity="0.3333333" silhouette="1.0"/>
+            <label id="148" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="160" exemplar="160" similarity="1.0" silhouette="0.5">
+          <labels>
+            <label id="165" similarity="0.6666666" silhouette="0.5"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="62" exemplar="62" similarity="0.3333333" silhouette="-1.0">
+          <labels/>
+          <clusters>
+            <cluster id="75" exemplar="75" similarity="0.3333333" silhouette="0.0">
+              <labels>
+                <label id="96" similarity="0.3333333" silhouette="1.0"/>
+              </labels>
+              <clusters/>
+            </cluster>
+            <cluster id="90" exemplar="90" similarity="0.3333333" silhouette="0.0">
+              <labels>
+                <label id="2" similarity="0.3333333" silhouette="1.0"/>
+                <label id="119" similarity="0.3333333" silhouette="1.0"/>
+              </labels>
+              <clusters>
+                <cluster id="82" exemplar="82" similarity="0.3333333" silhouette="0.0">
+                  <labels>
+                    <label id="107" similarity="0.3333333" silhouette="1.0"/>
+                  </labels>
+                  <clusters/>
+                </cluster>
+              </clusters>
+            </cluster>
+          </clusters>
+        </cluster>
+        <cluster id="94" exemplar="94" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="125" similarity="0.3333333" silhouette="0.0"/>
+            <label id="10" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="69" exemplar="69" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="9" similarity="0.3333333" silhouette="0.0"/>
+            <label id="20" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="124" exemplar="124" similarity="0.3333333" silhouette="0.0">
+          <labels>
+            <label id="168" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="166" exemplar="166" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="70" similarity="0.3333333" silhouette="1.0"/>
+            <label id="129" similarity="0.3333333" silhouette="1.0"/>
+            <label id="164" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="59" exemplar="59" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="93" similarity="0.3333333" silhouette="0.0"/>
+            <label id="123" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="39" exemplar="39" similarity="0.3333333" silhouette="0.0">
+          <labels>
+            <label id="36" similarity="0.3333333" silhouette="1.0"/>
+            <label id="122" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters>
+            <cluster id="92" exemplar="92" similarity="0.3333333" silhouette="0.0">
+              <labels>
+                <label id="138" similarity="0.3333333" silhouette="1.0"/>
+              </labels>
+              <clusters/>
+            </cluster>
+          </clusters>
+        </cluster>
+        <cluster id="1" exemplar="1" similarity="0.3333333" silhouette="0.0">
+          <labels>
+            <label id="111" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="38" exemplar="38" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="32" similarity="0.3333333" silhouette="0.0"/>
+            <label id="67" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="76" exemplar="76" similarity="0.3333333" silhouette="0.0">
+          <labels>
+            <label id="45" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="14" exemplar="14" similarity="0.3333333" silhouette="0.0">
+          <labels>
+            <label id="88" similarity="0.3333333" silhouette="0.0"/>
+            <label id="110" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters>
+            <cluster id="60" exemplar="60" similarity="0.3333333" silhouette="0.0">
+              <labels>
+                <label id="52" similarity="0.3333333" silhouette="0.0"/>
+              </labels>
+              <clusters/>
+            </cluster>
+            <cluster id="134" exemplar="134" similarity="0.3333333" silhouette="0.0">
+              <labels>
+                <label id="121" similarity="0.3333333" silhouette="1.0"/>
+                <label id="132" similarity="0.3333333" silhouette="1.0"/>
+              </labels>
+              <clusters/>
+            </cluster>
+          </clusters>
+        </cluster>
+        <cluster id="29" exemplar="29" similarity="1.0" silhouette="-1.0">
+          <labels/>
+          <clusters>
+            <cluster id="58" exemplar="58" similarity="0.6666666" silhouette="0.0">
+              <labels>
+                <label id="102" similarity="0.6666666" silhouette="0.5"/>
+              </labels>
+              <clusters>
+                <cluster id="85" exemplar="85" similarity="0.3333333" silhouette="0.0">
+                  <labels>
+                    <label id="91" similarity="0.3333333" silhouette="1.0"/>
+                  </labels>
+                  <clusters/>
+                </cluster>
+                <cluster id="78" exemplar="78" similarity="0.3333333" silhouette="0.0">
+                  <labels>
+                    <label id="162" similarity="0.3333333" silhouette="1.0"/>
+                  </labels>
+                  <clusters/>
+                </cluster>
+              </clusters>
+            </cluster>
+          </clusters>
+        </cluster>
+        <cluster id="53" exemplar="53" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="66" similarity="0.3333333" silhouette="0.0"/>
+            <label id="163" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="26" exemplar="26" similarity="0.3333333" silhouette="0.0">
+          <labels>
+            <label id="128" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="106" exemplar="106" similarity="0.3333333" silhouette="0.0">
+          <labels>
+            <label id="120" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="151" exemplar="151" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="118" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="55" exemplar="55" similarity="0.3333333" silhouette="0.0">
+          <labels>
+            <label id="63" similarity="0.3333333" silhouette="0.0"/>
+            <label id="141" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters>
+            <cluster id="149" exemplar="149" similarity="0.3333333" silhouette="0.0">
+              <labels>
+                <label id="86" similarity="0.3333333" silhouette="1.0"/>
+              </labels>
+              <clusters/>
+            </cluster>
+          </clusters>
+        </cluster>
+        <cluster id="142" exemplar="142" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="143" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="33" exemplar="33" similarity="0.6666666" silhouette="0.0">
+          <labels>
+            <label id="158" similarity="0.6666666" silhouette="0.0"/>
+            <label id="159" similarity="0.6666666" silhouette="0.0"/>
+            <label id="4" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="13" exemplar="13" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="98" similarity="0.3333333" silhouette="0.0"/>
+            <label id="103" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="139" exemplar="139" similarity="0.6666666" silhouette="0.25">
+          <labels>
+            <label id="35" similarity="0.6666666" silhouette="0.25"/>
+            <label id="49" similarity="0.3333333" silhouette="1.0"/>
+            <label id="157" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="116" exemplar="116" similarity="1.0" silhouette="0.5">
+          <labels>
+            <label id="167" similarity="1.0" silhouette="0.6666667"/>
+            <label id="44" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters>
+            <cluster id="108" exemplar="108" similarity="0.3333333" silhouette="0.0">
+              <labels>
+                <label id="161" similarity="0.3333333" silhouette="1.0"/>
+              </labels>
+              <clusters/>
+            </cluster>
+          </clusters>
+        </cluster>
+        <cluster id="24" exemplar="24" similarity="0.6666666" silhouette="0.0">
+          <labels>
+            <label id="25" similarity="0.6666666" silhouette="0.0"/>
+            <label id="15" similarity="0.3333333" silhouette="0.0"/>
+            <label id="146" similarity="0.3333333" silhouette="0.0"/>
+            <label id="154" similarity="0.3333333" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="131" exemplar="131" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="113" similarity="0.3333333" silhouette="1.0"/>
+            <label id="21" similarity="0.3333333" silhouette="1.0"/>
+            <label id="89" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters>
+            <cluster id="136" exemplar="136" similarity="0.3333333" silhouette="0.0">
+              <labels>
+                <label id="5" similarity="0.3333333" silhouette="1.0"/>
+              </labels>
+              <clusters>
+                <cluster id="97" exemplar="97" similarity="0.3333333" silhouette="0.0">
+                  <labels>
+                    <label id="68" similarity="0.3333333" silhouette="1.0"/>
+                  </labels>
+                  <clusters/>
+                </cluster>
+              </clusters>
+            </cluster>
+            <cluster id="83" exemplar="83" similarity="0.3333333" silhouette="0.0">
+              <labels>
+                <label id="16" similarity="0.3333333" silhouette="1.0"/>
+              </labels>
+              <clusters/>
+            </cluster>
+          </clusters>
+        </cluster>
+        <cluster id="135" exemplar="135" similarity="0.6666666" silhouette="0.33333334">
+          <labels>
+            <label id="54" similarity="0.6666666" silhouette="1.0"/>
+            <label id="64" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters>
+            <cluster id="56" exemplar="56" similarity="0.3333333" silhouette="0.0">
+              <labels>
+                <label id="18" similarity="0.3333333" silhouette="1.0"/>
+              </labels>
+              <clusters/>
+            </cluster>
+          </clusters>
+        </cluster>
+        <cluster id="27" exemplar="27" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="84" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="71" exemplar="71" similarity="0.3333333" silhouette="0.0">
+          <labels>
+            <label id="28" similarity="0.3333333" silhouette="0.0"/>
+            <label id="31" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters>
+            <cluster id="114" exemplar="114" similarity="0.3333333" silhouette="0.0">
+              <labels>
+                <label id="22" similarity="0.3333333" silhouette="1.0"/>
+              </labels>
+              <clusters/>
+            </cluster>
+          </clusters>
+        </cluster>
+        <cluster id="46" exemplar="46" similarity="1.0" silhouette="0.0">
+          <labels>
+            <label id="47" similarity="0.3333333" silhouette="1.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+        <cluster id="-1" similarity="0.0" silhouette="0.0" other="true">
+          <labels>
+            <label id="112" similarity="0.0" silhouette="0.0"/>
+            <label id="133" similarity="0.0" silhouette="0.0"/>
+            <label id="3" similarity="0.0" silhouette="0.0"/>
+            <label id="6" similarity="0.0" silhouette="0.0"/>
+            <label id="8" similarity="0.0" silhouette="0.0"/>
+            <label id="11" similarity="0.0" silhouette="0.0"/>
+            <label id="12" similarity="0.0" silhouette="0.0"/>
+            <label id="17" similarity="0.0" silhouette="0.0"/>
+            <label id="19" similarity="0.0" silhouette="0.0"/>
+            <label id="23" similarity="0.0" silhouette="0.0"/>
+            <label id="34" similarity="0.0" silhouette="0.0"/>
+            <label id="37" similarity="0.0" silhouette="0.0"/>
+            <label id="41" similarity="0.0" silhouette="0.0"/>
+            <label id="42" similarity="0.0" silhouette="0.0"/>
+            <label id="50" similarity="0.0" silhouette="0.0"/>
+            <label id="51" similarity="0.0" silhouette="0.0"/>
+            <label id="61" similarity="0.0" silhouette="0.0"/>
+            <label id="65" similarity="0.0" silhouette="0.0"/>
+            <label id="72" similarity="0.0" silhouette="0.0"/>
+            <label id="74" similarity="0.0" silhouette="0.0"/>
+            <label id="79" similarity="0.0" silhouette="0.0"/>
+            <label id="81" similarity="0.0" silhouette="0.0"/>
+            <label id="99" similarity="0.0" silhouette="0.0"/>
+            <label id="100" similarity="0.0" silhouette="0.0"/>
+            <label id="101" similarity="0.0" silhouette="0.0"/>
+            <label id="109" similarity="0.0" silhouette="0.0"/>
+            <label id="115" similarity="0.0" silhouette="0.0"/>
+            <label id="117" similarity="0.0" silhouette="0.0"/>
+            <label id="126" similarity="0.0" silhouette="0.0"/>
+            <label id="130" similarity="0.0" silhouette="0.0"/>
+            <label id="137" similarity="0.0" silhouette="0.0"/>
+            <label id="144" similarity="0.0" silhouette="0.0"/>
+            <label id="145" similarity="0.0" silhouette="0.0"/>
+            <label id="147" similarity="0.0" silhouette="0.0"/>
+            <label id="150" similarity="0.0" silhouette="0.0"/>
+            <label id="153" similarity="0.0" silhouette="0.0"/>
+            <label id="156" similarity="0.0" silhouette="0.0"/>
+          </labels>
+          <clusters/>
+        </cluster>
+      </clusters>
+    </arrangement>
+    <list>
+      <label id="46" text="flow rate" df="5" score="11.987323" display="flow rate"/>
+      <label id="29" text="drinking water" df="4" score="11.492624" display="drinking water"/>
+      <label id="160" text="treatment plants" df="4" score="11.987323" display="treatment plants"/>
+      <label id="4" text="analytical techniques" df="3" score="9.084692" display="analytical techniques"/>
+      <label id="49" text="formative evaluation" df="3" score="9.771983" display="formative evaluation"/>
+      <label id="52" text="government agencies" df="3" score="8.308951" display="government agencies"/>
+      <label id="56" text="graduation rates" df="3" score="9.084692" display="graduation rates"/>
+      <label id="58" text="heavy metals" df="3" score="13.313724" display="heavy metals"/>
+      <label id="62" text="independent study" df="3" score="8.308951" display="independent study"/>
+      <label id="64" text="internship opportunities" df="3" score="11.492624" display="internship opportunities"/>
+      <label id="85" text="new materials" df="3" score="9.084692" display="new materials"/>
+      <label id="91" text="particle size" df="3" score="8.308951" display="particle size"/>
+      <label id="94" text="physical sciences" df="3" score="8.308951" display="physical sciences"/>
+      <label id="105" text="recent study" df="3" score="7.4057784" display="recent study"/>
+      <label id="112" text="research funding" df="3" score="7.4057784" display="research funding"/>
+      <label id="113" text="research laboratories" df="3" score="9.084692" display="research laboratories"/>
+      <label id="116" text="resource management" df="3" score="10.39349" display="resource management"/>
+      <label id="125" text="significantly increase" df="3" score="7.4057784" display="significantly increase"/>
+      <label id="127" text="solid state" df="3" score="8.308951" display="solid state"/>
+      <label id="133" text="student enrollment" df="3" score="9.084692" display="student enrollment"/>
+      <label id="135" text="student mentoring" df="3" score="11.492624" display="student mentoring"/>
+      <label id="136" text="student recruitment" df="3" score="11.987323" display="student recruitment"/>
+      <label id="139" text="summative evaluation" df="3" score="8.308951" display="summative evaluation"/>
+      <label id="142" text="supplementary documents" df="3" score="9.771983" display="supplementary documents"/>
+      <label id="157" text="total number" df="3" score="8.308951" display="total number"/>
+      <label id="167" text="water resources" df="3" score="7.4057784" display="water resources"/>
+      <label id="168" text="water samples" df="3" score="7.4057784" display="water samples"/>
+      <label id="0" text="academic performance" df="2" score="6.297007" display="academic performance"/>
+      <label id="1" text="academic research" df="2" score="6.297007" display="academic research"/>
+      <label id="2" text="actively engaged" df="2" score="6.297007" display="actively engaged"/>
+      <label id="3" text="additional training" df="2" score="6.297007" display="additional training"/>
+      <label id="5" text="application process" df="2" score="8.308951" display="application process"/>
+      <label id="6" text="aqueous solution" df="2" score="7.4057784" display="aqueous solution"/>
+      <label id="7" text="arrows indicate" df="2" score="7.4057784" display="arrows indicate"/>
+      <label id="8" text="atmospheric pressure" df="2" score="6.297007" display="atmospheric pressure"/>
+      <label id="9" text="atomic force" df="2" score="8.308951" display="atomic force"/>
+      <label id="10" text="bachelors degree" df="2" score="10.39349" display="bachelors degree"/>
+      <label id="11" text="benefit society" df="2" score="6.297007" display="benefit society"/>
+      <label id="12" text="best case" df="2" score="6.297007" display="best case"/>
+      <label id="13" text="broader community" df="2" score="6.297007" display="broader community"/>
+      <label id="14" text="career opportunities" df="2" score="12.453152" display="career opportunities"/>
+      <label id="15" text="collaborative effort" df="2" score="7.4057784" display="collaborative effort"/>
+      <label id="16" text="collaborative learning" df="2" score="6.297007" display="collaborative learning"/>
+      <label id="17" text="commercial product" df="2" score="6.297007" display="commercial product"/>
+      <label id="18" text="completed work" df="2" score="7.4057784" display="completed work"/>
+      <label id="19" text="computational models" df="2" score="7.4057784" display="computational models"/>
+      <label id="20" text="contact angle" df="2" score="12.894209" display="contact angle"/>
+      <label id="21" text="cost extension" df="2" score="6.297007" display="cost extension"/>
+      <label id="22" text="critical component" df="2" score="7.4057784" display="critical component"/>
+      <label id="23" text="critical parameters" df="2" score="6.297007" display="critical parameters"/>
+      <label id="24" text="critical thinking" df="2" score="6.8041368" display="critical thinking"/>
+      <label id="25" text="critical thinking skills" df="2" score="13.653" display="critical thinking skills"/>
+      <label id="26" text="dashed line" df="2" score="6.297007" display="dashed line"/>
+      <label id="27" text="dissolved oxygen" df="2" score="10.39349" display="dissolved oxygen"/>
+      <label id="28" text="distance learning" df="2" score="6.297007" display="distance learning"/>
+      <label id="30" text="education system" df="2" score="6.297007" display="education system"/>
+      <label id="31" text="educational programs" df="2" score="7.4057784" display="educational programs"/>
+      <label id="32" text="educational research" df="2" score="7.4057784" display="educational research"/>
+      <label id="33" text="electron microscopy" df="2" score="4.1544757" display="electron microscopy"/>
+      <label id="34" text="environmental impact" df="2" score="6.297007" display="environmental impact"/>
+      <label id="35" text="evaluation instruments" df="2" score="9.084692" display="evaluation instruments"/>
+      <label id="36" text="explore new" df="2" score="7.4057784" display="explore new"/>
+      <label id="37" text="fabrication process" df="2" score="8.308951" display="fabrication process"/>
+      <label id="38" text="faculty advisor" df="2" score="6.297007" display="faculty advisor"/>
+      <label id="39" text="faculty development" df="2" score="9.084692" display="faculty development"/>
+      <label id="40" text="faculty mentor" df="2" score="10.963726" display="faculty mentor"/>
+      <label id="41" text="few hours" df="2" score="6.297007" display="few hours"/>
+      <label id="42" text="figure shows" df="2" score="7.4057784" display="figure shows"/>
+      <label id="43" text="final product" df="2" score="6.297007" display="final product"/>
+      <label id="44" text="final report" df="2" score="7.4057784" display="final report"/>
+      <label id="45" text="find applications" df="2" score="7.4057784" display="find applications"/>
+      <label id="47" text="fluid flow" df="2" score="10.39349" display="fluid flow"/>
+      <label id="48" text="following criteria" df="2" score="6.297007" display="following criteria"/>
+      <label id="50" text="full-time faculty" df="2" score="6.297007" display="full-time faculty"/>
+      <label id="51" text="glass substrate" df="2" score="6.297007" display="glass substrate"/>
+      <label id="53" text="graduate degrees" df="2" score="6.297007" display="graduate degrees"/>
+      <label id="54" text="graduate student mentors" df="2" score="7.4057784" display="graduate student mentors"/>
+      <label id="55" text="graduate studies" df="2" score="8.308951" display="graduate studies"/>
+      <label id="57" text="growing concern" df="2" score="6.297007" display="growing concern"/>
+      <label id="59" text="highly sensitive" df="2" score="11.492624" display="highly sensitive"/>
+      <label id="60" text="include research" df="2" score="6.297007" display="include research"/>
+      <label id="61" text="increase retention" df="2" score="6.297007" display="increase retention"/>
+      <label id="63" text="industry professionals" df="2" score="6.297007" display="industry professionals"/>
+      <label id="65" text="issues related" df="2" score="6.297007" display="issues related"/>
+      <label id="66" text="junior year" df="2" score="8.308951" display="junior year"/>
+      <label id="67" text="key personnel" df="2" score="6.297007" display="key personnel"/>
+      <label id="68" text="laboratory experience" df="2" score="7.4057784" display="laboratory experience"/>
+      <label id="69" text="laminar flow" df="2" score="7.4057784" display="laminar flow"/>
+      <label id="70" text="lessons learned" df="2" score="8.308951" display="lessons learned"/>
+      <label id="71" text="liberal arts" df="2" score="9.084692" display="liberal arts"/>
+      <label id="72" text="liquid chromatography" df="2" score="6.297007" display="liquid chromatography"/>
+      <label id="73" text="lower levels" df="2" score="7.4057784" display="lower levels"/>
+      <label id="74" text="magnitude larger" df="2" score="6.297007" display="magnitude larger"/>
+      <label id="75" text="major components" df="2" score="6.297007" display="major components"/>
+      <label id="76" text="market needs" df="2" score="7.4057784" display="market needs"/>
+      <label id="77" text="market research" df="2" score="7.4057784" display="market research"/>
+      <label id="78" text="mass produced" df="2" score="6.297007" display="mass produced"/>
+      <label id="79" text="measurements show" df="2" score="6.297007" display="measurements show"/>
+      <label id="80" text="meetings including" df="2" score="6.297007" display="meetings including"/>
+      <label id="81" text="mixed methods" df="2" score="6.297007" display="mixed methods"/>
+      <label id="82" text="national meetings" df="2" score="8.308951" display="national meetings"/>
+      <label id="83" text="needs assessment" df="2" score="8.308951" display="needs assessment"/>
+      <label id="84" text="new business" df="2" score="6.297007" display="new business"/>
+      <label id="86" text="new opportunities" df="2" score="7.4057784" display="new opportunities"/>
+      <label id="87" text="organic matter" df="2" score="12.894209" display="organic matter"/>
+      <label id="88" text="paid internships" df="2" score="9.771983" display="paid internships"/>
+      <label id="89" text="participating colleges" df="2" score="8.308951" display="participating colleges"/>
+      <label id="90" text="participating faculty" df="2" score="8.308951" display="participating faculty"/>
+      <label id="92" text="partner institutions" df="2" score="8.308951" display="partner institutions"/>
+      <label id="93" text="patent search" df="2" score="8.308951" display="patent search"/>
+      <label id="95" text="policy makers" df="2" score="7.4057784" display="policy makers"/>
+      <label id="96" text="practical experience" df="2" score="8.308951" display="practical experience"/>
+      <label id="97" text="primary responsibility" df="2" score="7.4057784" display="primary responsibility"/>
+      <label id="98" text="professional conferences" df="2" score="6.297007" display="professional conferences"/>
+      <label id="99" text="professional networks" df="2" score="7.4057784" display="professional networks"/>
+      <label id="100" text="programs aimed" df="2" score="6.297007" display="programs aimed"/>
+      <label id="101" text="provide guidance" df="2" score="8.308951" display="provide guidance"/>
+      <label id="102" text="public health" df="2" score="7.4057784" display="public health"/>
+      <label id="103" text="pursuing careers" df="2" score="6.297007" display="pursuing careers"/>
+      <label id="104" text="real life" df="2" score="6.297007" display="real life"/>
+      <label id="106" text="regional conferences" df="2" score="6.297007" display="regional conferences"/>
+      <label id="107" text="regional meetings" df="2" score="7.4057784" display="regional meetings"/>
+      <label id="108" text="related technologies" df="2" score="6.297007" display="related technologies"/>
+      <label id="109" text="relatively easy" df="2" score="6.297007" display="relatively easy"/>
+      <label id="110" text="research design" df="2" score="6.297007" display="research design"/>
+      <label id="111" text="research environment" df="2" score="6.297007" display="research environment"/>
+      <label id="114" text="research mentor" df="2" score="7.4057784" display="research mentor"/>
+      <label id="115" text="research process" df="2" score="6.297007" display="research process"/>
+      <label id="117" text="room temperature" df="2" score="8.308951" display="room temperature"/>
+      <label id="118" text="sample volume" df="2" score="6.297007" display="sample volume"/>
+      <label id="119" text="science research" df="2" score="20.78698" display="science research"/>
+      <label id="120" text="science teachers" df="2" score="7.4057784" display="science teachers"/>
+      <label id="121" text="scientific concepts" df="2" score="6.297007" display="scientific concepts"/>
+      <label id="122" text="selection criteria" df="2" score="6.297007" display="selection criteria"/>
+      <label id="123" text="sensors based" df="2" score="8.308951" display="sensors based"/>
+      <label id="124" text="significant experience" df="2" score="7.4057784" display="significant experience"/>
+      <label id="126" text="societal benefits" df="2" score="6.297007" display="societal benefits"/>
+      <label id="128" text="standard deviation" df="2" score="6.297007" display="standard deviation"/>
+      <label id="129" text="statistical analysis" df="2" score="9.084692" display="statistical analysis"/>
+      <label id="130" text="statistically significant" df="2" score="6.297007" display="statistically significant"/>
+      <label id="131" text="steering committee" df="2" score="18.351915" display="steering committee"/>
+      <label id="132" text="student engagement" df="2" score="6.297007" display="student engagement"/>
+      <label id="134" text="student interest" df="2" score="10.39349" display="student interest"/>
+      <label id="137" text="successful implementation" df="2" score="6.297007" display="successful implementation"/>
+      <label id="138" text="successfully completed" df="2" score="6.297007" display="successfully completed"/>
+      <label id="140" text="summer workshop" df="2" score="9.084692" display="summer workshop"/>
+      <label id="141" text="supervise student" df="2" score="7.4057784" display="supervise student"/>
+      <label id="143" text="supporting letter" df="2" score="7.4057784" display="supporting letter"/>
+      <label id="144" text="surface area" df="2" score="9.084692" display="surface area"/>
+      <label id="145" text="sustainable energy" df="2" score="6.297007" display="sustainable energy"/>
+      <label id="146" text="technical background" df="2" score="6.297007" display="technical background"/>
+      <label id="147" text="technical barriers" df="2" score="10.39349" display="technical barriers"/>
+      <label id="148" text="technical knowledge" df="2" score="8.308951" display="technical knowledge"/>
+      <label id="149" text="technical problems" df="2" score="6.297007" display="technical problems"/>
+      <label id="150" text="temperature change" df="2" score="6.297007" display="temperature change"/>
+      <label id="151" text="temperature control" df="2" score="9.084692" display="temperature control"/>
+      <label id="152" text="test hypotheses" df="2" score="9.084692" display="test hypotheses"/>
+      <label id="153" text="time constants" df="2" score="6.297007" display="time constants"/>
+      <label id="154" text="time management" df="2" score="6.297007" display="time management"/>
+      <label id="155" text="time points" df="2" score="11.492624" display="time points"/>
+      <label id="156" text="time required" df="2" score="6.297007" display="time required"/>
+      <label id="158" text="transmission electron" df="2" score="4.1544757" display="transmission electron"/>
+      <label id="159" text="transmission electron microscopy" df="2" score="12.168936" display="transmission electron microscopy"/>
+      <label id="161" text="two-year colleges" df="2" score="9.771983" display="two-year colleges"/>
+      <label id="162" text="typically used" df="2" score="7.4057784" display="typically used"/>
+      <label id="163" text="undergraduate degree" df="2" score="7.4057784" display="undergraduate degree"/>
+      <label id="164" text="urban areas" df="2" score="6.297007" display="urban areas"/>
+      <label id="165" text="wastewater treatment" df="2" score="11.987323" display="wastewater treatment"/>
+      <label id="166" text="water quality" df="2" score="16.432032" display="water quality"/>
+    </list>
+  </labels>
+  <documents inScope="9" totalMatches="9" labeled="9">
+    <arrangement>
+      <converged>true</converged>
+      <iterations>107</iterations>
+      <netSimilarity>5.0202293</netSimilarity>
+      <pruningGain>0.0</pruningGain>
+      <clusters>
+        <cluster id="0" exemplar="542">
+          <labels>
+            <label occurrences="3">student recruitment</label>
+            <label occurrences="3">flow rate</label>
+            <label occurrences="3">drinking water</label>
+            <label occurrences="2">water quality</label>
+            <label occurrences="2">two-year colleges</label>
+            <label occurrences="2">test hypotheses</label>
+            <label occurrences="2">summer workshop</label>
+          </labels>
+          <documents>
+            <document id="778" similarity="1.0"/>
+            <document id="542" similarity="0.9689274"/>
+            <document id="168" similarity="0.87501055"/>
+            <document id="248" similarity="0.48454455"/>
+            <document id="857" similarity="0.21648446"/>
+            <document id="617" similarity="0.19287544"/>
+          </documents>
+        </cluster>
+        <cluster id="1" exemplar="777">
+          <labels>
+            <label occurrences="2">fluid flow</label>
+            <label occurrences="2">flow rate</label>
+            <label occurrences="2">fabrication process</label>
+            <label occurrences="1">typically used</label>
+            <label occurrences="1">surface area</label>
+            <label occurrences="1">sensors based</label>
+            <label occurrences="1">research laboratories</label>
+          </labels>
+          <documents>
+            <document id="915" similarity="0.6588663"/>
+            <document id="777" similarity="0.55500394"/>
+            <document id="44" similarity="0.06851663"/>
+          </documents>
+        </cluster>
+      </clusters>
+    </arrangement>
+    <relationshipsMatrix>
+      <relationship from="44" to="5" similarity="0.06851663"/>
+      <relationship from="168" to="3" similarity="0.87501055"/>
+      <relationship from="168" to="6" similarity="0.4065371"/>
+      <relationship from="168" to="2" similarity="0.24208005"/>
+      <relationship from="168" to="8" similarity="0.14605275"/>
+      <relationship from="168" to="5" similarity="0.13895719"/>
+      <relationship from="168" to="7" similarity="0.13167024"/>
+      <relationship from="168" to="0" similarity="0.048697654"/>
+      <relationship from="248" to="3" similarity="0.48454455"/>
+      <relationship from="248" to="6" similarity="0.23224854"/>
+      <relationship from="248" to="4" similarity="0.19327055"/>
+      <relationship from="248" to="1" similarity="0.16713871"/>
+      <relationship from="248" to="8" similarity="0.11443148"/>
+      <relationship from="248" to="7" similarity="0.098397106"/>
+      <relationship from="542" to="6" similarity="0.91960967"/>
+      <relationship from="542" to="1" similarity="0.6968851"/>
+      <relationship from="542" to="2" similarity="0.13041495"/>
+      <relationship from="542" to="5" similarity="0.06851663"/>
+      <relationship from="542" to="7" similarity="0.05292553"/>
+      <relationship from="542" to="0" similarity="0.048697654"/>
+      <relationship from="617" to="8" similarity="0.6367054"/>
+      <relationship from="617" to="1" similarity="0.23463708"/>
+      <relationship from="617" to="3" similarity="0.19287544"/>
+      <relationship from="617" to="7" similarity="0.17535174"/>
+      <relationship from="617" to="5" similarity="0.08389927"/>
+      <relationship from="617" to="6" similarity="0.0635702"/>
+      <relationship from="777" to="8" similarity="0.5323971"/>
+      <relationship from="777" to="1" similarity="0.19040665"/>
+      <relationship from="777" to="2" similarity="0.18747336"/>
+      <relationship from="777" to="4" similarity="0.08389927"/>
+      <relationship from="777" to="7" similarity="0.08389927"/>
+      <relationship from="777" to="0" similarity="0.07619575"/>
+      <relationship from="777" to="3" similarity="0.06101765"/>
+      <relationship from="777" to="6" similarity="0.053894304"/>
+      <relationship from="778" to="3" similarity="1.0"/>
+      <relationship from="778" to="1" similarity="0.5642845"/>
+      <relationship from="778" to="7" similarity="0.23795769"/>
+      <relationship from="778" to="2" similarity="0.19185841"/>
+      <relationship from="857" to="4" similarity="0.32547256"/>
+      <relationship from="857" to="1" similarity="0.3186196"/>
+      <relationship from="857" to="2" similarity="0.27469215"/>
+      <relationship from="857" to="6" similarity="0.2605993"/>
+      <relationship from="857" to="3" similarity="0.21648446"/>
+      <relationship from="857" to="8" similarity="0.14589795"/>
+      <relationship from="857" to="5" similarity="0.08389927"/>
+      <relationship from="915" to="5" similarity="0.6588663"/>
+      <relationship from="915" to="4" similarity="0.4157149"/>
+      <relationship from="915" to="1" similarity="0.26855195"/>
+      <relationship from="915" to="7" similarity="0.08389927"/>
+    </relationshipsMatrix>
+    <list>
+      <document id="44">
+        <content>
+          <field name="Submission_Date">
+            <value>20161004</value>
+          </field>
+          <field name="Proposal_Title">
+            <value>AAA</value>
+          </field>
+          <field name="Division">
+            <value>DMS</value>
+          </field>
+          <field name="Directorate">
+            <value>MPS</value>
+          </field>
+          <field name="Proposal_ID">
+            <value>1111111</value>
+          </field>
+        </content>
+        <labels>
+          <label id="19" occurrences="2"/>
+        </labels>
+      </document>
+      <document id="168">
+        <content>
+          <field name="Submission_Date">
+            <value>20161010</value>
+          </field>
+          <field name="Proposal_Title">
+            <value>BBB</value>
+          </field>
+          <field name="Division">
+            <value>EAR</value>
+          </field>
+          <field name="Directorate">
+            <value>GEO</value>
+          </field>
+          <field name="Proposal_ID">
+            <value>1111111</value>
+          </field>
+        </content>
+        <labels>
+          <label id="166" occurrences="20"/>
+          <label id="14" occurrences="10"/>
+          <label id="134" occurrences="6"/>
+          <label id="64" occurrences="6"/>
+          <label id="88" occurrences="5"/>
+          <label id="136" occurrences="4"/>
+          <label id="135" occurrences="4"/>
+          <label id="71" occurrences="4"/>
+          <label id="40" occurrences="4"/>
+          <label id="24" occurrences="4"/>
+          <label id="140" occurrences="3"/>
+          <label id="56" occurrences="3"/>
+          <label id="5" occurrences="3"/>
+          <label id="163" occurrences="2"/>
+          <label id="152" occurrences="2"/>
+          <label id="141" occurrences="2"/>
+          <label id="139" occurrences="2"/>
+          <label id="133" occurrences="2"/>
+          <label id="120" occurrences="2"/>
+          <label id="114" occurrences="2"/>
+        </labels>
+      </document>
+      <document id="248">
+        <content>
+          <field name="Submission_Date">
+            <value>20161003</value>
+          </field>
+          <field name="Proposal_Title">
+            <value>CCC</value>
+          </field>
+          <field name="Division">
+            <value>CHE</value>
+          </field>
+          <field name="Directorate">
+            <value>MPS</value>
+          </field>
+          <field name="Proposal_ID">
+            <value>2222222</value>
+          </field>
+        </content>
+        <labels>
+          <label id="58" occurrences="10"/>
+          <label id="135" occurrences="4"/>
+          <label id="29" occurrences="4"/>
+          <label id="158" occurrences="3"/>
+          <label id="117" occurrences="3"/>
+          <label id="85" occurrences="3"/>
+          <label id="159" occurrences="2"/>
+          <label id="143" occurrences="2"/>
+          <label id="127" occurrences="2"/>
+          <label id="54" occurrences="2"/>
+          <label id="33" occurrences="2"/>
+          <label id="6" occurrences="2"/>
+        </labels>
+      </document>
+      <document id="542">
+        <content>
+          <field name="Submission_Date">
+            <value>20161005</value>
+          </field>
+          <field name="Proposal_Title">
+            <value>DDD</value>
+          </field>
+          <field name="Division">
+            <value>DUE</value>
+          </field>
+          <field name="Directorate">
+            <value>EHR</value>
+          </field>
+          <field name="Proposal_ID">
+            <value>3333333</value>
+          </field>
+        </content>
+        <labels>
+          <label id="131" occurrences="8"/>
+          <label id="10" occurrences="5"/>
+          <label id="161" occurrences="4"/>
+          <label id="40" occurrences="4"/>
+          <label id="39" occurrences="4"/>
+          <label id="35" occurrences="4"/>
+          <label id="148" occurrences="3"/>
+          <label id="96" occurrences="3"/>
+          <label id="89" occurrences="3"/>
+          <label id="82" occurrences="3"/>
+          <label id="66" occurrences="3"/>
+          <label id="49" occurrences="3"/>
+          <label id="24" occurrences="3"/>
+          <label id="157" occurrences="2"/>
+          <label id="140" occurrences="2"/>
+          <label id="136" occurrences="2"/>
+          <label id="133" occurrences="2"/>
+          <label id="107" occurrences="2"/>
+          <label id="102" occurrences="2"/>
+          <label id="99" occurrences="2"/>
+        </labels>
+      </document>
+      <document id="617">
+        <content>
+          <field name="Submission_Date">
+            <value>20161010</value>
+          </field>
+          <field name="Proposal_Title">
+            <value>EEE</value>
+          </field>
+          <field name="Division">
+            <value>IIP</value>
+          </field>
+          <field name="Directorate">
+            <value>ENG</value>
+          </field>
+          <field name="Proposal_ID">
+            <value>4444444</value>
+          </field>
+        </content>
+        <labels>
+          <label id="147" occurrences="6"/>
+          <label id="27" occurrences="6"/>
+          <label id="151" occurrences="4"/>
+          <label id="142" occurrences="4"/>
+          <label id="123" occurrences="2"/>
+          <label id="97" occurrences="2"/>
+          <label id="93" occurrences="2"/>
+          <label id="77" occurrences="2"/>
+          <label id="52" occurrences="2"/>
+          <label id="46" occurrences="2"/>
+          <label id="4" occurrences="2"/>
+        </labels>
+      </document>
+      <document id="777">
+        <content>
+          <field name="Submission_Date">
+            <value>20161005</value>
+          </field>
+          <field name="Proposal_Title">
+            <value>FFF</value>
+          </field>
+          <field name="Division">
+            <value>CBET</value>
+          </field>
+          <field name="Directorate">
+            <value>ENG</value>
+          </field>
+          <field name="Proposal_ID">
+            <value>5555555</value>
+          </field>
+        </content>
+        <labels>
+          <label id="20" occurrences="11"/>
+          <label id="113" occurrences="3"/>
+          <label id="55" occurrences="3"/>
+          <label id="47" occurrences="3"/>
+          <label id="9" occurrences="3"/>
+          <label id="162" occurrences="2"/>
+          <label id="91" occurrences="2"/>
+          <label id="69" occurrences="2"/>
+          <label id="46" occurrences="2"/>
+          <label id="42" occurrences="2"/>
+          <label id="37" occurrences="2"/>
+        </labels>
+      </document>
+      <document id="778">
+        <content>
+          <field name="Submission_Date">
+            <value>20161005</value>
+          </field>
+          <field name="Proposal_Title">
+            <value>GGG</value>
+          </field>
+          <field name="Division">
+            <value>DUE</value>
+          </field>
+          <field name="Directorate">
+            <value>EHR</value>
+          </field>
+          <field name="Proposal_ID">
+            <value>6666666</value>
+          </field>
+        </content>
+        <labels>
+          <label id="131" occurrences="21"/>
+          <label id="119" occurrences="6"/>
+          <label id="116" occurrences="5"/>
+          <label id="136" occurrences="4"/>
+          <label id="90" occurrences="3"/>
+          <label id="166" occurrences="2"/>
+          <label id="161" occurrences="2"/>
+          <label id="124" occurrences="2"/>
+          <label id="92" occurrences="2"/>
+          <label id="83" occurrences="2"/>
+          <label id="70" occurrences="2"/>
+          <label id="44" occurrences="2"/>
+          <label id="32" occurrences="2"/>
+          <label id="31" occurrences="2"/>
+          <label id="29" occurrences="2"/>
+          <label id="18" occurrences="2"/>
+          <label id="10" occurrences="2"/>
+        </labels>
+      </document>
+      <document id="857">
+        <content>
+          <field name="Submission_Date">
+            <value>20161007</value>
+          </field>
+          <field name="Proposal_Title">
+            <value>HHH</value>
+          </field>
+          <field name="Division">
+            <value>CBET</value>
+          </field>
+          <field name="Directorate">
+            <value>ENG</value>
+          </field>
+          <field name="Proposal_ID">
+            <value>7777777</value>
+          </field>
+        </content>
+        <labels>
+          <label id="87" occurrences="11"/>
+          <label id="165" occurrences="9"/>
+          <label id="155" occurrences="8"/>
+          <label id="160" occurrences="7"/>
+          <label id="129" occurrences="4"/>
+          <label id="152" occurrences="3"/>
+          <label id="73" occurrences="2"/>
+          <label id="46" occurrences="2"/>
+          <label id="29" occurrences="2"/>
+          <label id="15" occurrences="2"/>
+          <label id="4" occurrences="2"/>
+        </labels>
+      </document>
+      <document id="915">
+        <content>
+          <field name="Submission_Date">
+            <value>20161011</value>
+          </field>
+          <field name="Proposal_Title">
+            <value>III</value>
+          </field>
+          <field name="Division">
+            <value>IIP</value>
+          </field>
+          <field name="Directorate">
+            <value>ENG</value>
+          </field>
+          <field name="Proposal_ID">
+            <value>8888888</value>
+          </field>
+        </content>
+        <labels>
+          <label id="59" occurrences="8"/>
+          <label id="144" occurrences="4"/>
+          <label id="47" occurrences="4"/>
+          <label id="123" occurrences="2"/>
+          <label id="101" occurrences="2"/>
+          <label id="93" occurrences="2"/>
+          <label id="76" occurrences="2"/>
+          <label id="64" occurrences="2"/>
+          <label id="46" occurrences="2"/>
+          <label id="45" occurrences="2"/>
+          <label id="37" occurrences="2"/>
+          <label id="7" occurrences="2"/>
+        </labels>
+      </document>
+    </list>
+  </documents>
+  <status status="AVAILABLE" elapsedMs="120">
+    <progress>
+      <progress task="Resolving selector query" status="DONE" elapsedMs="1">
+        <attributes>
+          <attributes name="Total hits" value="9"/>
+        </attributes>
+      </progress>
+      <progress task="Fetching candidate labels" status="DONE" progress="1.0" elapsedMs="35">
+        <attributes>
+          <attributes name="TermVectorScan: Segments" value="3"/>
+          <attributes name="TermVectorScan: Documents" value="9"/>
+          <attributes name="TermVectorScan: Threads" value="8"/>
+          <attributes name="TermVectorScan: Labels fetched" value="226"/>
+          <attributes name="TermVectorScan: Speed" value="500 docs/s"/>
+        </attributes>
+      </progress>
+      <progress task="Scoring candidate labels" status="DONE" progress="1.0" elapsedMs="2">
+        <attributes>
+          <attributes name="Labels scored" value="226"/>
+          <attributes name="Labels selected" value="169"/>
+          <attributes name="Speed" value="113.00k labels/s"/>
+        </attributes>
+      </progress>
+      <progress task="Fetching labelled documents" status="DONE" progress="1.0" elapsedMs="18">
+        <attributes/>
+      </progress>
+      <progress task="Fetching document relationships" status="DONE" progress="1.0" elapsedMs="24">
+        <attributes>
+          <attributes name="Documents in scope" value="9"/>
+          <attributes name="Self-similar" value="9"/>
+          <attributes name="Threads" value="7"/>
+          <attributes name="Speed" value="375 queries/s"/>
+        </attributes>
+      </progress>
+      <progress task="Clustering documents" status="DONE" progress="0.107" elapsedMs="3">
+        <attributes>
+          <attributes name="Similarity density" value="60.49%"/>
+          <attributes name="Similarity pruning gain" value="0.00%"/>
+          <attributes name="Similarity pruning time" value="0ms"/>
+          <attributes name="Similarity used" value="original"/>
+          <attributes name="Iterations" value="107 (10.7% of max)"/>
+        </attributes>
+      </progress>
+      <progress task="Labeling clusters" status="DONE" progress="1.0" elapsedMs="10">
+        <attributes/>
+      </progress>
+      <progress task="Counting co-occurrences" status="DONE" progress="1.0" elapsedMs="4">
+        <attributes>
+          <attributes name="Threads" value="8"/>
+          <attributes name="Speed" value="42.25k labels/s"/>
+        </attributes>
+      </progress>
+      <progress task="Computing label similarities" status="DONE" progress="0.9940828402366864" elapsedMs="0">
+        <attributes/>
+      </progress>
+      <progress task="Clustering labels" status="DONE" progress="0.055" elapsedMs="5">
+        <attributes>
+          <attributes name="Similarity density" value="1.07%"/>
+          <attributes name="Similarity pruning gain" value="14.05%"/>
+          <attributes name="Similarity pruning time" value="0ms"/>
+          <attributes name="Similarity used" value="original"/>
+          <attributes name="Iterations" value="110 (5.5% of max)"/>
+        </attributes>
+      </progress>
+      <progress task="Computing coverage" status="DONE" progress="1.0" elapsedMs="16">
+        <attributes>
+          <attributes name="Segments" value="8"/>
+          <attributes name="Labels" value="169"/>
+          <attributes name="Threads" value="8"/>
+          <attributes name="Speed" value="10.56k labels/s"/>
+        </attributes>
+      </progress>
+    </progress>
+  </status>
+  <spec>
+    <scope>
+      <type>byQuery</type>
+      <limit>2147483647</limit>
+      <query>oil AND water AND fish</query>
+      <queryParser>standard</queryParser>
+    </scope>
+    <labels>
+      <maxLabels>500</maxLabels>
+      <source>
+        <fields>
+          <name>Proposal_Title$phrases</name>
+          <weight>2.0</weight>
+        </fields>
+        <fields>
+          <name>Project_Summary$phrases</name>
+          <weight>1.0</weight>
+        </fields>
+        <fields>
+          <name>Project_Description$phrases</name>
+          <weight>1.0</weight>
+        </fields>
+      </source>
+      <surface>
+        <minWordCount>2</minWordCount>
+        <maxWordCount>8</maxWordCount>
+        <minCharacterCount>3</minCharacterCount>
+        <minWordCharacterCountAverage>2.9</minWordCharacterCountAverage>
+        <preferredWordCount>2.5</preferredWordCount>
+        <preferredWordCountDeviation>2.5</preferredWordCountDeviation>
+        <singleWordLabelWeightMultiplier>0.0</singleWordLabelWeightMultiplier>
+        <capitalizedLabelWeight>0.0</capitalizedLabelWeight>
+        <uppercaseLabelWeight>0.0</uppercaseLabelWeight>
+        <acronymLabelWeight>0.0</acronymLabelWeight>
+        <exclude>
+          <type>project</type>
+          <dictionary>default</dictionary>
+        </exclude>
+      </surface>
+      <frequencies>
+        <minAbsoluteDf>2</minAbsoluteDf>
+        <minRelativeDf>0.002</minRelativeDf>
+        <maxRelativeDf>1.0</maxRelativeDf>
+        <truncatedPhraseThreshold>0.2</truncatedPhraseThreshold>
+      </frequencies>
+      <probabilities>
+        <probabilityRatioPreference>PREFER_SCOPE_SPECIFIC</probabilityRatioPreference>
+        <probabilityRatioThreshold>1.5</probabilityRatioThreshold>
+        <probabilityRatioPreferenceStrength>0.0</probabilityRatioPreferenceStrength>
+        <probabilityRatioMaxRelativeScopeSize>0.5</probabilityRatioMaxRelativeScopeSize>
+        <autoStopLabelRemovalStrength>0.35</autoStopLabelRemovalStrength>
+        <autoStopLabelMinCoverage>0.4</autoStopLabelMinCoverage>
+      </probabilities>
+      <scorers>
+        <randomRatio>0.1</randomRatio>
+        <randomSeed>0</randomSeed>
+        <termWeightScorerWeight>1.0</termWeightScorerWeight>
+        <tokenCountScorerWeight>1.0</tokenCountScorerWeight>
+        <tfScorerWeight>0.4</tfScorerWeight>
+        <tfDfRatioScorerWeight>1.0</tfDfRatioScorerWeight>
+        <idfScorerWeight>0.0</idfScorerWeight>
+        <completePhrasesScorerWeight>1.0</completePhrasesScorerWeight>
+        <truncatedPhrasesScorerWeight>1.0</truncatedPhrasesScorerWeight>
+        <dictionaryScorerWeight>1.0</dictionaryScorerWeight>
+        <tokenCaseScorerWeight>1.0</tokenCaseScorerWeight>
+        <probabilityRatioScorerWeight>1.0</probabilityRatioScorerWeight>
+      </scorers>
+      <arrangement>
+        <enabled>true</enabled>
+        <algorithm>
+          <type>ap</type>
+          <ap>
+            <maxIterations>2000</maxIterations>
+            <minSteadyIterations>100</minSteadyIterations>
+            <threads>4</threads>
+            <softening>0.8999999761581421</softening>
+            <damping>0.8999999761581421</damping>
+            <minPruningGain>0.30000001192092896</minPruningGain>
+            <inputPreference>-40.0</inputPreference>
+            <preferenceInitializer>DF</preferenceInitializer>
+            <preferenceInitializerScaling>1.0</preferenceInitializerScaling>
+          </ap>
+        </algorithm>
+        <relationship>
+          <type>cooccurrences</type>
+          <cooccurrenceWindowSize>32</cooccurrenceWindowSize>
+          <cooccurrenceCountingAccuracy>1.0</cooccurrenceCountingAccuracy>
+          <similarityWeighting>RR</similarityWeighting>
+          <threads>8</threads>
+        </relationship>
+      </arrangement>
+    </labels>
+    <documents>
+      <arrangement>
+        <enabled>true</enabled>
+        <maxDocuments>100000</maxDocuments>
+        <trimToMaxDocuments>false</trimToMaxDocuments>
+        <algorithm>
+          <type>ap</type>
+          <ap>
+            <maxIterations>1000</maxIterations>
+            <minSteadyIterations>100</minSteadyIterations>
+            <threads>4</threads>
+            <softening>0.8999999761581421</softening>
+            <damping>0.8999999761581421</damping>
+            <minPruningGain>0.30000001192092896</minPruningGain>
+            <inputPreference>-1.0</inputPreference>
+            <addSelfSimilarityToPreference>false</addSelfSimilarityToPreference>
+          </ap>
+          <maxClusterLabels>7</maxClusterLabels>
+        </algorithm>
+        <relationship>
+          <type>mlt</type>
+          <maxSimilarDocuments>100</maxSimilarDocuments>
+          <maxQueryLabels>20</maxQueryLabels>
+          <minQueryLabelOccurrences>2</minQueryLabelOccurrences>
+          <threads>8</threads>
+        </relationship>
+      </arrangement>
+      <relationships>
+        <enabled>true</enabled>
+      </relationships>
+    </documents>
+    <output>
+      <format>xml</format>
+      <parameters>
+        <idField>Proposal_ID</idField>
+      </parameters>
+      <labels>
+        <enabled>true</enabled>
+        <labelFormat>ORIGINAL</labelFormat>
+        <documents>
+          <enabled>false</enabled>
+          <maxDocumentsPerLabel>10</maxDocumentsPerLabel>
+          <outputScores>false</outputScores>
+        </documents>
+      </labels>
+      <documents>
+        <enabled>true</enabled>
+        <onlyWithLabels>true</onlyWithLabels>
+        <onlyAssignedToLabels>false</onlyAssignedToLabels>
+        <labels>
+          <enabled>true</enabled>
+          <maxLabelsPerDocument>20</maxLabelsPerDocument>
+          <minLabelOccurrencesPerDocument>2</minLabelOccurrencesPerDocument>
+        </labels>
+        <content>
+          <enabled>true</enabled>
+          <fields>
+            <name>Proposal_ID</name>
+            <maxValues>3</maxValues>
+            <maxValueLength>160</maxValueLength>
+            <highlighting>
+              <criteria>false</criteria>
+              <scope>false</scope>
+              <truncationMarker>…</truncationMarker>
+              <startMarker>⁌%s⁍</startMarker>
+              <endMarker>⁌\%s⁍</endMarker>
+            </highlighting>
+          </fields>
+          <fields>
+            <name>Proposal_Title</name>
+            <maxValues>3</maxValues>
+            <maxValueLength>160</maxValueLength>
+            <highlighting>
+              <criteria>false</criteria>
+              <scope>false</scope>
+              <truncationMarker>…</truncationMarker>
+              <startMarker>⁌%s⁍</startMarker>
+              <endMarker>⁌\%s⁍</endMarker>
+            </highlighting>
+          </fields>
+          <fields>
+            <name>Directorate</name>
+            <maxValues>3</maxValues>
+            <maxValueLength>160</maxValueLength>
+            <highlighting>
+              <criteria>false</criteria>
+              <scope>false</scope>
+              <truncationMarker>…</truncationMarker>
+              <startMarker>⁌%s⁍</startMarker>
+              <endMarker>⁌\%s⁍</endMarker>
+            </highlighting>
+          </fields>
+          <fields>
+            <name>Division</name>
+            <maxValues>3</maxValues>
+            <maxValueLength>160</maxValueLength>
+            <highlighting>
+              <criteria>false</criteria>
+              <scope>false</scope>
+              <truncationMarker>…</truncationMarker>
+              <startMarker>⁌%s⁍</startMarker>
+              <endMarker>⁌\%s⁍</endMarker>
+            </highlighting>
+          </fields>
+          <fields>
+            <name>Submission_Date</name>
+            <maxValues>3</maxValues>
+            <maxValueLength>160</maxValueLength>
+            <highlighting>
+              <criteria>false</criteria>
+              <scope>false</scope>
+              <truncationMarker>…</truncationMarker>
+              <startMarker>⁌%s⁍</startMarker>
+              <endMarker>⁌\%s⁍</endMarker>
+            </highlighting>
+          </fields>
+        </content>
+      </documents>
+    </output>
+    <performance>
+      <minPerSegmentDf>auto</minPerSegmentDf>
+      <maxPerSegmentDf>1.0</maxPerSegmentDf>
+      <maxSubsetSizeForTermVectorScan>0.1</maxSubsetSizeForTermVectorScan>
+      <threads>8</threads>
+    </performance>
+    <summary>
+      <labeledDocuments>true</labeledDocuments>
+    </summary>
+    <debug>
+      <logCandidateLabelPartialScores>false</logCandidateLabelPartialScores>
+    </debug>
+  </spec>
+</result>
