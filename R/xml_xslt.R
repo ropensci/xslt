@@ -38,7 +38,7 @@ xml_xslt.xml_document <- function(doc, stylesheet){
 #' @rdname xslt
 xslt_version <- function(){
   list(
-    xml2 = as.package_version(xslt:::libxml2_version()),
-    xslt = as.package_version(xslt:::libxslt_version())
+    xml2 = as.package_version(libxml2_version()),
+    xslt = as.package_version(libxslt_version())
   )
 }
