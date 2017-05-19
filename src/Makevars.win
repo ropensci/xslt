@@ -8,7 +8,7 @@ PKG_LIBS=-L../windows/libxml2-2.9.4/lib${R_ARCH} \
 all: clean winlibs
 
 clean:
-	rm -f $(OBJECTS) xml2.dll
+	rm -f $(OBJECTS) $(SHLIB)
 
 winlibs:
 	"${R_HOME}/bin${R_ARCH_BIN}/Rscript.exe" "../tools/winlibs.R"
