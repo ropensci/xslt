@@ -2,5 +2,6 @@
 
 S3method(xml_xslt,xml_document)
 export(xml_xslt)
+export(xslt_version)
 importFrom(xml2,read_xml)
 useDynLib(xslt)

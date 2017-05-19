@@ -10,7 +10,8 @@
 #' it is also unavailable in most browsers.
 #'
 #' @export
-#' @aliases xslt
+#' @rdname xslt
+#' @name xslt
 #' @useDynLib xslt
 #' @importFrom xml2 read_xml
 #' @param doc xml document as returned by [xml2::read_xml]
@@ -31,4 +32,13 @@ xml_xslt.xml_document <- function(doc, stylesheet){
   if(is.character(out))
     return(out)
   as_xml2(out)
+}
+
+#' @export
+#' @rdname xslt
+xslt_version <- function(){
+  list(
+    xml2 = as.package_version(xslt:::libxml2_version()),
+    xslt = as.package_version(xslt:::libxslt_version())
+  )
 }
