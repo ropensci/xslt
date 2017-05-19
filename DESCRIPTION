@@ -1,5 +1,5 @@
 Package: xslt
-Version: 1.0
+Version: 1.1
 Title: XSLT 1.0 Transformations
 Description: An extension for the 'xml2' package to transform XML documents
     by applying an XSL stylesheet.
