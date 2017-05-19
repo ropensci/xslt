@@ -1,5 +1,6 @@
 1.1
   - For stylesheets with output method="text" return a string instead of xml object
+  - Fix a rare crash on Windows by making copies of the input doc and sheet
   - Export xslt_version() function
   - Update maintainer details
   
