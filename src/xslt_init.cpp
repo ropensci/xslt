@@ -40,6 +40,10 @@ extern "C" {
 
     xsltSetGenericErrorFunc(NULL, (xmlGenericErrorFunc) handleXsltError);
     exsltRegisterAll();
+    
+    /* Required by R 3.4 */
+    R_registerRoutines(info, NULL, NULL, NULL, NULL);
+    R_useDynamicSymbols(info, TRUE);
   }
 
   void R_unload_xlst(DllInfo *info) {
