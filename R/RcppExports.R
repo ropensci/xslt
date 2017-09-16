@@ -2,14 +2,14 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 libxml2_version <- function() {
-    .Call('xslt_libxml2_version', PACKAGE = 'xslt')
+    .Call('_xslt_libxml2_version', PACKAGE = 'xslt')
 }
 
 libxslt_version <- function() {
-    .Call('xslt_libxslt_version', PACKAGE = 'xslt')
+    .Call('_xslt_libxslt_version', PACKAGE = 'xslt')
 }
 
-doc_xslt_apply <- function(doc, xslt) {
-    .Call('xslt_doc_xslt_apply', PACKAGE = 'xslt', doc, xslt)
+doc_xslt_apply <- function(doc, xslt, params) {
+    .Call('_xslt_doc_xslt_apply', PACKAGE = 'xslt', doc, xslt, params)
 }
 
