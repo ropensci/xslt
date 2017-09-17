@@ -1,14 +1,13 @@
 language: r
 cache: packages
+latex: false
 
 matrix:
   include:
     - os: linux
       dist: precise
-      sudo: false
     - os: linux
       dist: trusty
-      sudo: required
       env: R_CODECOV=true
     - os: osx
       osx_image: xcode8.3
@@ -18,7 +17,6 @@ matrix:
       before_install:
         - brew install libxml2
         - brew link --force libxml2
-      latex: false
 
 addons:
   apt:

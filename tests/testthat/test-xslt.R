@@ -1,4 +1,4 @@
-context("XSL Transformation")
+context("Transformation")
 
 test_that("XML document gets properly transformed using a stylesheet", {
   doc <- read_xml(system.file("examples/cd_catalog.xml", package = "xslt"))

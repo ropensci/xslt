@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
+    <xsl:output method="text" encoding="UTF-8" media-type="text/plain" omit-xml-declaration="yes"/>
+      <xsl:param name="author" select="''"/>
+        <xsl:param name="reviewer" select="''"/>
+          <xsl:template match="root">
+            <xsl:text>author: </xsl:text><xsl:value-of select="$author"/><xsl:text>&#10;</xsl:text>
+              <xsl:text>reviewer: </xsl:text><xsl:value-of select="$reviewer"/><xsl:text>&#10;</xsl:text>
+                </xsl:template>
+                </xsl:stylesheet>
