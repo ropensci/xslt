@@ -20,7 +20,7 @@ xslt_version()
 \description{
 Transform an XML document by applying an XSL stylesheet. Usually returns the
 transformed \link[xml2:xml_new_document]{xml_document}, unless the stylesheet has
-\code{&lt;xsl:output method="text"&gt;} in which case we return a text string.
+\code{<xsl:output method="text">} in which case we return a text string.
 }
 \details{
 This implementation supports XSLT 1.0 features plus most of the EXSLT set of
