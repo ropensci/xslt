@@ -1,5 +1,5 @@
 Package: xslt
-Version: 1.1.9000
+Version: 1.2
 Title: XSLT 1.0 Transformations
 Description: An extension for the 'xml2' package to transform XML documents
     by applying an XSL stylesheet.
@@ -11,6 +11,6 @@ Depends: xml2 (>= 1.1.0)
 LinkingTo: Rcpp, xml2
 SystemRequirements: libxslt: libxslt1-dev (deb), libxslt-devel (rpm)
 License: GPL (>= 2)
-RoxygenNote: 6.0.1.9000
+RoxygenNote: 6.0.1
 Roxygen: list(markdown = TRUE)
 Suggests: testthat
