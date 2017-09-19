@@ -18,6 +18,7 @@ SEXP doc_xslt_apply(XPtrDoc doc, XPtrDoc xslt, std::vector<std::string> params) 
   if(xsltPtr->method && !strcmp("text", (char *) xsltPtr->method)){
     xmlChar * str; int len;
     xsltSaveResultToString(&str, &len, res, xsltPtr);
+    free(strparam);
     xmlFreeDoc(docPtr);
     xmlFreeDoc(sheetPtr);
     return Rcpp::CharacterVector(std::string((char*) str, len));    
