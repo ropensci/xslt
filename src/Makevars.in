@@ -1,6 +1,5 @@
 PKG_CPPFLAGS=@cflags@ -DSTRICT_R_HEADERS
 PKG_LIBS=@libs@
-CXX_STD=CXX11
 
 all: clean
 

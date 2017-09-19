@@ -4,8 +4,6 @@ PKG_CPPFLAGS=-I../windows/libxml2-2.9.4/include/libxml2 \
 
 PKG_LIBS=-L../windows/libxml2-2.9.4/lib${R_ARCH} \
 	-lexslt -lxslt -lxml2 -llzma -liconv -lz -lws2_32
-	
-CXX_STD=CXX11
 
 all: clean winlibs
 

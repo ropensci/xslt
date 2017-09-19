@@ -1,8 +1,8 @@
 Package: xslt
-Version: 1.2
-Title: Extensible Stylesheet Language 1.0
+Version: 1.2.9000
+Title: Extensible Style-Sheet Language Transformations
 Description: An extension for the 'xml2' package to transform XML documents
-    by applying an 'xsl' transformation.
+    by applying an 'xslt' style-sheet.
 Author: Jeroen Ooms
 Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
 URL: https://github.com/ropensci/xslt
