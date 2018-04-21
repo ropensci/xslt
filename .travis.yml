@@ -7,14 +7,12 @@ pandoc: false
 matrix:
   include:
     - os: linux
-      dist: precise
-    - os: linux
       dist: trusty
       env: R_CODECOV=true
     - os: osx
-      osx_image: xcode9.1
+      osx_image: xcode9.2
     - os: osx
-      osx_image: xcode9.1
+      osx_image: xcode9.2
       before_install:
         - brew install libxml2
         - brew link --force libxml2
