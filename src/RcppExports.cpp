@@ -6,19 +6,6 @@
 
 using namespace Rcpp;
 
-// doc_xslt_apply
-SEXP doc_xslt_apply(XPtrDoc doc, XPtrDoc xslt, std::vector<std::string> params);
-RcppExport SEXP _xslt_doc_xslt_apply(SEXP docSEXP, SEXP xsltSEXP, SEXP paramsSEXP) {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< XPtrDoc >::type doc(docSEXP);
-    Rcpp::traits::input_parameter< XPtrDoc >::type xslt(xsltSEXP);
-    Rcpp::traits::input_parameter< std::vector<std::string> >::type params(paramsSEXP);
-    rcpp_result_gen = Rcpp::wrap(doc_xslt_apply(doc, xslt, params));
-    return rcpp_result_gen;
-END_RCPP
-}
 // libxml2_version
 std::string libxml2_version();
 RcppExport SEXP _xslt_libxml2_version() {
@@ -36,6 +23,19 @@ BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
     rcpp_result_gen = Rcpp::wrap(libxslt_version());
+    return rcpp_result_gen;
+END_RCPP
+}
+// doc_xslt_apply
+SEXP doc_xslt_apply(XPtrDoc doc, XPtrDoc xslt, std::vector<std::string> params);
+RcppExport SEXP _xslt_doc_xslt_apply(SEXP docSEXP, SEXP xsltSEXP, SEXP paramsSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< XPtrDoc >::type doc(docSEXP);
+    Rcpp::traits::input_parameter< XPtrDoc >::type xslt(xsltSEXP);
+    Rcpp::traits::input_parameter< std::vector<std::string> >::type params(paramsSEXP);
+    rcpp_result_gen = Rcpp::wrap(doc_xslt_apply(doc, xslt, params));
     return rcpp_result_gen;
 END_RCPP
 }
