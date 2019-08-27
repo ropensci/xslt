@@ -5,7 +5,8 @@ Description: An extension for the 'xml2' package to transform XML documents
     by applying an 'xslt' style-sheet.
 Author: Jeroen Ooms
 Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
-URL: https://github.com/ropensci/xslt
+URL: https://docs.ropensci.org/xslt (website)
+    https://github.com/ropensci/xslt (devel)
 BugReports: https://github.com/ropensci/xslt/issues
 Depends: xml2 (>= 1.1.0)
 LinkingTo: Rcpp, xml2
