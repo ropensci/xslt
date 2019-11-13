@@ -20,17 +20,3 @@ addons:
     packages:
       - libxslt1-dev
       - valgrind
-
-r_github_packages:
-  - jimhester/covr
-
-warnings_are_errors: true
-#r_check_revdep: true
-
-notifications:
-  email:
-    on_success: change
-    on_failure: change
-
-after_success:
-  - if [[ "${R_CODECOV}" ]]; then R -e 'covr::codecov()'; fi
