@@ -14,6 +14,7 @@
 #' @name xslt
 #' @useDynLib xslt
 #' @importFrom xml2 read_xml
+#' @importFrom Rcpp sourceCpp
 #' @param doc xml document as returned by [xml2::read_xml]
 #' @param stylesheet another xml document containing the XSL stylesheet
 #' @param params named list or vector with additional XSLT parameters
