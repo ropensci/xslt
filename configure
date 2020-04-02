@@ -20,9 +20,11 @@ if [ $(command -v pkg-config) ]; then
   PKGCONFIG_LIBS=$(pkg-config --libs $PKG_CONFIG_NAME)
 fi
 
-# Workaround for MacOS SDK header conflict
+# Workaround: add SDK path on MacOS
+# Only -I include the libxml2 subdir, otherwise we can get header conflicts!
 if [[ "$OSTYPE" == "darwin"* ]]; then
-  PKGCONFIG_CFLAGS="$(xslt-config --cflags)/libxml2"
+  XML2DIR=$(xml2-config --cflags | sed 's#/usr/include$#/usr/include/libxml2#g')
+  PKGCONFIG_CFLAGS="${XML2DIR} ${PKGCONFIG_CFLAGS}"
 fi
 
 # Note that cflags may be empty in case of success

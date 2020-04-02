@@ -1,6 +1,8 @@
 1.4
   - Windows: update to libxml2 2.9.8 and libxslt 1.1.32
   - <xsl:message> now print a message instead of erroring
+  - Force rebuild because libxml2 ABI has changed due to rcpp removal
+  - Configure: include sdk path on MacOS
 
 1.3
   - Fix a pedantic warning about variable length arrays
