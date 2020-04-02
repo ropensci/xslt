@@ -1,6 +1,6 @@
 1.4
   - Windows: update to libxml2 2.9.8 and libxslt 1.1.32
-  - <xsl:message> now print a message instead of erroring 
+  - <xsl:message> now print a message instead of erroring
 
 1.3
   - Fix a pedantic warning about variable length arrays
