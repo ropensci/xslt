@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Anticonf (tm) script by Jeroen Ooms (2016)
+# Anticonf (tm) script by Jeroen Ooms (2020)
 # This script will query 'pkg-config' for the required cflags and ldflags.
 # If pkg-config is unavailable or does not find the library, try setting
 # INCLUDE_DIR and LIB_DIR manually via e.g:
@@ -18,6 +18,11 @@ PKG_LIBS="-lexslt -lxslt -lxml2"
 if [ $(command -v pkg-config) ]; then
   PKGCONFIG_CFLAGS=$(pkg-config --cflags --silence-errors $PKG_CONFIG_NAME)
   PKGCONFIG_LIBS=$(pkg-config --libs $PKG_CONFIG_NAME)
+fi
+
+# Workaround for MacOS SDK header conflict
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  PKGCONFIG_CFLAGS="$(xslt-config --cflags)/libxml2"
 fi
 
 # Note that cflags may be empty in case of success
