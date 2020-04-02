@@ -9,3 +9,4 @@ src/Makevars
 inst/doc
 xslt.Rproj
 windows
+configure.log

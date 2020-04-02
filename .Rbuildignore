@@ -9,3 +9,4 @@ windows
 ^docker$
 ^readme.md$
 ^appveyor\.yml$
+^configure.log$
