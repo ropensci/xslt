@@ -19,6 +19,9 @@ matrix:
         - PKG_CONFIG_PATH="/usr/local/opt/libxml2/lib/pkgconfig"
       before_install:
         - brew install libxml2
+    - os: osx
+      osx_image: xcode10.1
+      disable_homebrew: true
 
 addons:
   apt:
