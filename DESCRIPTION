@@ -1,5 +1,5 @@
 Package: xslt
-Version: 1.4
+Version: 1.4.1
 Title: Extensible Style-Sheet Language Transformations
 Description: An extension for the 'xml2' package to transform XML documents
     by applying an 'xslt' style-sheet.
