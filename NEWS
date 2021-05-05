@@ -1,6 +1,9 @@
+1.4.3
+  - Windows: update to libxml2 2.9.10 and libxslt 1.1.34
+
 1.4.2
   - Explicitly link to liblzma on MacOS to fix problem on CRAN.
-  
+
 1.4.1
   - Fix build on CRAN MacOS (without pkg-config)
 
@@ -15,13 +18,13 @@
 
 1.2
   - Add support for setting custom xslt parameters
-  
+
 1.1
   - For stylesheets with output method="text" return a string instead of xml object
   - Fix a crash on Windows by making copies of the input docs before transforming
   - More stress testing in unit tests
   - Export xslt_version() function
   - Update maintainer details
-  
+
 1.0
   - Initial release

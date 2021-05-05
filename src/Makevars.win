@@ -1,9 +1,9 @@
-VERSION=2.9.8
+VERSION=2.9.10
 RWINLIB=../windows/libxml2-$(VERSION)
 PKG_CPPFLAGS=-I$(RWINLIB)/include -I$(RWINLIB)/include/libxml2 \
 	-DLIBXML_STATIC -DSTRICT_R_HEADERS
 
-PKG_LIBS=-L$(RWINLIB)/lib${R_ARCH} -lexslt -lxslt -lxml2 -llzma -liconv -lz -lws2_32
+PKG_LIBS=-L$(RWINLIB)/lib${R_ARCH}${CRT} -lexslt -lxslt -lxml2 -llzma -liconv -lz -lws2_32
 
 all: clean winlibs
 
