@@ -10,3 +10,4 @@ windows
 ^readme.md$
 ^appveyor\.yml$
 ^configure.log$
+^\.github$

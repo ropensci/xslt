@@ -6,6 +6,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // doc_xslt_apply
 SEXP doc_xslt_apply(XPtrDoc doc, XPtrDoc xslt, std::vector<std::string> params);
 RcppExport SEXP _xslt_doc_xslt_apply(SEXP docSEXP, SEXP xsltSEXP, SEXP paramsSEXP) {

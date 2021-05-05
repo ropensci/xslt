@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 # Anticonf (tm) script by Jeroen Ooms (2020)
 # This script will query 'pkg-config' for the required cflags and ldflags.
 # If pkg-config is unavailable or does not find the library, try setting
@@ -15,15 +14,15 @@ PKG_CFLAGS="-I/usr/include/libxml2"
 PKG_LIBS="-lexslt -lxslt -lxml2"
 
 # Use pkg-config if available
-if [ $(command -v pkg-config) ]; then
-  PKGCONFIG_CFLAGS=$(pkg-config --cflags --silence-errors $PKG_CONFIG_NAME)
-  PKGCONFIG_LIBS=$(pkg-config --libs $PKG_CONFIG_NAME)
+if [ `command -v pkg-config` ]; then
+  PKGCONFIG_CFLAGS=`pkg-config --cflags --silence-errors $PKG_CONFIG_NAME`
+  PKGCONFIG_LIBS=`pkg-config --libs $PKG_CONFIG_NAME`
 fi
 
 # Workaround: add SDK path on MacOS
 # Only -I include the libxml2 subdir, otherwise we can get header conflicts!
-if [[ "$OSTYPE" == "darwin"* ]]; then
-  XML2DIR=$(xml2-config --cflags | sed 's#/usr/include$#/usr/include/libxml2#g')
+if [ `uname` = "Darwin" ]; then
+  XML2DIR=`xml2-config --cflags | sed 's#/usr/include$#/usr/include/libxml2#g'`
   PKGCONFIG_CFLAGS="${XML2DIR} ${PKGCONFIG_CFLAGS}"
   PKGCONFIG_LIBS="${PKGCONFIG_LIBS:-$PKG_LIBS} -llzma"
 fi
@@ -40,9 +39,9 @@ elif [ "$PKGCONFIG_LIBS" ]; then
 fi
 
 # Find compiler
-CC=$(${R_HOME}/bin/R CMD config CC)
-CFLAGS=$(${R_HOME}/bin/R CMD config CFLAGS)
-CPPFLAGS=$(${R_HOME}/bin/R CMD config CPPFLAGS)
+CC=`${R_HOME}/bin/R CMD config CC`
+CFLAGS=`${R_HOME}/bin/R CMD config CFLAGS`
+CPPFLAGS=`${R_HOME}/bin/R CMD config CPPFLAGS`
 
 # For debugging
 echo "Using PKG_CFLAGS=$PKG_CFLAGS"
