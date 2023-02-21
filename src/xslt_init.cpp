@@ -6,12 +6,13 @@
 #include <libxslt/xsltutils.h>
 #include <libexslt/exslt.h>
 
+char xsltlasterr[1024] = {0};
+
 void handleXsltError(void *ctx, const char *msg, ...){
-  char string[1024];
   va_list arg_ptr;
   va_start(arg_ptr, msg);
-  vsnprintf(string, 1024, msg, arg_ptr);
-  REprintf("xslt error: %s", string);
+  vsnprintf(xsltlasterr, 1024, msg, arg_ptr);
+  REprintf("xslt error: %s", xsltlasterr);
 }
 
 void handleError(void* userData, xmlError* error) {
@@ -40,7 +41,7 @@ extern "C" {
 
     xsltSetGenericErrorFunc(NULL, (xmlGenericErrorFunc) handleXsltError);
     exsltRegisterAll();
-    
+
     /* Required by R 3.4 */
     R_registerRoutines(info, NULL, NULL, NULL, NULL);
     R_useDynamicSymbols(info, (Rboolean) TRUE);
