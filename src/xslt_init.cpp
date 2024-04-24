@@ -15,7 +15,11 @@ void handleXsltError(void *ctx, const char *msg, ...){
   REprintf("xslt error: %s", xsltlasterr);
 }
 
-void handleError(void* userData, xmlError* error) {
+#if LIBXML_VERSION >= 21200
+  void handleError(void* userData, const xmlError* error) {
+#else
+  void handleError(void* userData, xmlError* error) {
+#endif
   std::string message = std::string(error->message);
   message.resize(message.size() - 1); // trim off trailing newline
 
