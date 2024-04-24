@@ -1,3 +1,6 @@
+1.4.5
+  - Fix compat with libxml2 2.12.0
+
 1.4.4
   - Fix a bug that would cause a crash for some invalid xslt input (#11)
   - Windows: update to libxml2 2.10.3 and libxslt 1.1.37
