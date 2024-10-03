@@ -6,7 +6,8 @@ Description: An extension for the 'xml2' package to transform XML documents
 Authors@R: person("Jeroen", "Ooms", role = c("aut", "cre"), email = "jeroenooms@gmail.com",
       comment = c(ORCID = "0000-0002-4035-0289"))
 Maintainer: Jeroen Ooms <jeroenooms@gmail.com>
-URL: https://ropensci.r-universe.dev/xslt https://docs.ropensci.org/xslt/
+URL: https://ropensci.r-universe.dev/xslt
+    https://docs.ropensci.org/xslt/
 BugReports: https://github.com/ropensci/xslt/issues
 Depends: xml2 (>= 1.3.0)
 Imports: Rcpp
