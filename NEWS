@@ -1,3 +1,6 @@
+1.5.0
+  - Windows: build with libxslt from Rtools if found
+
 1.4.5
   - Fix compat with libxml2 2.12.0
 
